@@ -86,6 +86,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   transform: translatey(50px);
   transition: all 0.8s ease-out;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .recipe-card.appear{
