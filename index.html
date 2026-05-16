@@ -24,7 +24,7 @@
         
         <nav>
           <ul class="nav-links">
-            <li><a href="#">Home</a></li> |
+            <li><a href="index.html">Home</a></li> |
             <li><a href="#">About</a></li> |
             <li><a href="#">Contact</a></li> |
           </ul>
@@ -32,8 +32,41 @@
       </header>
 
 
-      <!-- the rows of each category (Breakfast, Healthy...)-->
+      <!-- the categories list-->
+       <h1 class="main-title">What are you craving?</h1>
 
+       <div class="bubble-container">
+
+        <!-- the link to breakfast -->
+         <a href="categories/breakfast.html" class="category-bubble theme-pink">
+          <img src="imgBreakfast/chia pudding.jpg" alt="breakfast">
+          <h3>Breakfast</h3>
+         </a>
+
+         <!-- salads link -->
+          <a href="categories/salads.html" class="category-bubble theme-white">
+            <img src="imgSalads/beetroot & arugula salad.jpg" alt="salads">
+            <h3>Salads</h3>
+          </a>
+
+          <!-- lunch link -->
+           <a href="categories/lunch.html" class="category-bubble theme-pink">
+            <img src="imgLunch/poke bowl.jpg" alt="lunch">
+            <h3>Lunch</h3>
+           </a>
+
+       </div>
+
+
+
+
+
+
+
+
+       
+      <!-- the rows of each category (Breakfast, Healthy...)-->
+       
       <section class="category-section">
         <h2 class="category-title">Breakfast</h2>
 
@@ -349,11 +382,15 @@
               <!-- recipe 1-->
                <a href="#" class="recipe-card">
                 <div class="bubble">
-                  <img src=""
+                  <img src="../imgLunch/poke bowl.jpg" alt="poke bowl">
                 </div>
+                <span class="recipe-name">Poke Bowl</span>
                </a>
+
             </div>
            </div>
+
+            <button class="arrow-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
         </div>
 
 

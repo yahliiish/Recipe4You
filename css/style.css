@@ -4,9 +4,8 @@
   align-items: center;
   min-height: 70px;
   padding: 10px 5%;
-  background-color: palevioletred;
+  background-color: rgb(237, 142, 174);
   color: white;
-  border-radius: 10px;
 }
 
 .logo-img{

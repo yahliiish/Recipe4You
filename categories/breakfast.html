@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+
+</head>
+<body>
+
+    <header class="main-header">
+        
+        <div class="logo">
+            <a href="../index.html">
+              <img src="../imgBreakfast/hat-back.jpg" alt="my website logo" class="logo-img"> 
+            </a>
+        </div>
+        
+        <div class="search-container">
+          <input type="text" id="user-search" class="search-input" placeholder="search website...">
+          <button id="search-btn" class="searchy-btn">Search</button>
+        </div>
+        
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li> |
+            <li><a href="#">About</a></li> |
+            <li><a href="#">Contact</a></li> |
+          </ul>
+        </nav>
+      </header>
+
+       <!-- the rows of each category (Breakfast, Healthy...)-->
+       
+      <section class="category-section">
+        <h2 class="category-title">Breakfast</h2>
+
+        <div class="slider-wrapper theme-pink">
+          <!-- the side arrows-->
+           <button class="arrow-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
+
+           <div class="slider-window">
+            <div class="recipe-row">
+
+              <!-- recipe item 1-->
+
+              <a href="../recipes/chiaPudding.html" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/chia pudding.jpg" alt="chia pudding">
+                </div>
+                <span class="recipe-name">Chia Pudding</span>
+              </a>
+
+              <!-- recipe item 2-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/overnight oats.jpg" alt="overnight oats">
+                </div>
+                <span class="recipe-name">Overnight Oats</span>
+              </a>
+
+              <!-- recipe item 3-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/pancakes.jpg" alt="Pancakes">
+                </div>
+                <span class="recipe-name">Pancakes</span>
+              </a>
+
+              <!-- recipe item 4-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/breakfast bagel.jpg" alt="breakfast bagel">
+                </div>
+                <span class="recipe-name">Breakfast Bagel</span>
+              </a>
+
+              <!-- recipe item 5-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/egg muffins.jpg" alt="egg muffins">
+                </div>
+                <span class="recipe-name">Egg Muffins</span>
+              </a>
+
+              <!-- recipe item 6-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/french toast.jpg" alt="french toast">
+                </div>
+                <span class="recipe-name">French Toast</span>
+              </a>
+
+              <!-- recipe item 7-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/shakshuka.jpg" alt="shakshuka">
+                </div>
+                <span class="recipe-name">Shakshuka</span>
+              </a>
+
+              <!-- recipe item 8-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/yogurt bowl.jpg" alt="yogurt bowl">
+                </div>
+                <span class="recipe-name">Yogurt Bowl</span>
+              </a>
+
+              <!-- recipe item 9-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/acai bowl.jpg" alt="acai bowl">
+                </div>
+                <span class="recipe-name">Acai Bowl</span>
+              </a>
+
+              <!-- recipe item 10-->
+
+              <a href="#" class="recipe-card appear">
+                <div class="bubble">
+                  <img src="../imgBreakfast/yogurt banana split.jpg" alt="yogurt banana split">
+                </div>
+                <span class="recipe-name">Yogurt Banana Split</span>
+              </a>
+
+            </div>
+           </div>
+
+           <!-- another side arrow-->
+            <button class="arrow-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
+        </div>
+    
+</body>
+</html>
