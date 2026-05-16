@@ -80,6 +80,18 @@
   position: relative; /* the arrows can stick to the sides*/
   display: flex;
   align-items: center;
+  /* for soft corners*/
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px; /* space between rows*/
+}
+
+.slider-wrapper.theme-pink {
+  background-color: #fff0f5; /* light pink background for breakfast */
+}
+
+.slider-wrapper.theme-blue {
+  background-color: #C0D6DF; /* blue background for healthy */ 
 }
 
 .slider-window{
