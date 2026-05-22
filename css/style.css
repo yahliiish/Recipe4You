@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../imgGeneral/high\ quality\ bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.8); /* fallback color with opacity */
+}
 .main-header{
   display: flex;
   justify-content: space-between;
@@ -6,6 +17,9 @@
   padding: 10px 5%;
   background-color: rgb(237, 142, 174);
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-img{
@@ -56,6 +70,81 @@
   color: brown;
   font-weight: bold;
 }
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* space between the two rows */
+  margin-top: 50px;
+}
+
+/*the bubble links*/
+.category-box {
+  position: relative;  /* Act as an anchor for the floating title box */
+  width: 150px;        /* Set the size of the box */
+  height: 220px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+  transform: translateY(-10px); /* bubbles float up when hovered */
+}
+
+.category-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;  /* Makes the image itself the perfect circle */
+  object-fit: cover;   /* Prevents the food from stretching or distorting */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Soft shadow beneath the photo */
+  display: block;
+}
+
+/*the shadow only on the circle*/
+.category-box:hover img {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.category-box h3 {
+  position: absolute;
+  bottom: 0; /*Snaps the box baseline to the bottom edge of the photo */
+  left: 50%; /* Centers the box horizontally */
+ 
+  /* The secret code: -50% left keeps it centered, 50% top pushes it exactly halfway down past the edge */
+  transform: translate(-50%, 50%);
+
+  /* Designing the "Little Box" badge */
+  white-space: nowrap; /* Prevents the text from wrapping or breaking into two lines */
+  padding: 8px 18px;   /* Top/Bottom and Left/Right breathing room */
+  border-radius: 5px; /* Makes the box a little less pill shaped */
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;           /* Strips browser default spacing */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Makes the badge pop off the photo */
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.category-box:hover h3 {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+/* colors of the name boxes */
+.category-box.theme-pink h3 {
+  background-color: #fff0f5; /* Pastel Pink background */
+  color: #b01a59;            /* Dark pink text for readability */
+  border: 1px solid #ffdae5;
+}
+
+.category-box.theme-blue h3 {
+  background-color: #e3f2fd; /* Pastel Blue background */
+  color: #0d47a1;            /* Dark blue text */
+  border: 1px solid #c8e6c9;
+}
+
+
+
+
+
 
 .category-section h2 {
   display: inline-block; /* makes the box as wide as the text*/

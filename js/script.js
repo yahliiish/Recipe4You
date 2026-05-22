@@ -1,11 +1,13 @@
+
+
 // the fade in effect
 const observer = new IntersectionObserver(entries => {
-    entrys.forEach(entry => {
+    entries.forEach(entry => {
         if(entry.isIntersecting){
             entry.target.classList.add('appear');
         }
     });
-}, {threshold: 0.1});
+}, {threshold: 0.2});
 
 document.querySelectorAll('.recipe-card').forEach(card => observer.observe(card));
 

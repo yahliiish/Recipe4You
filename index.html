@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my recipes site</title>
+    <title>Recipe4You</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
@@ -35,367 +35,52 @@
       <!-- the categories list-->
        <h1 class="main-title">What are you craving?</h1>
 
-       <div class="bubble-container">
+       <div class="box-container">
 
         <!-- the link to breakfast -->
-         <a href="categories/breakfast.html" class="category-bubble theme-pink">
+         <a href="categories/breakfast.html" class="category-box theme-pink">
           <img src="imgBreakfast/chia pudding.jpg" alt="breakfast">
           <h3>Breakfast</h3>
          </a>
+         
 
          <!-- salads link -->
-          <a href="categories/salads.html" class="category-bubble theme-white">
+          <a href="categories/salads.html" class="category-box theme-blue">
             <img src="imgSalads/beetroot & arugula salad.jpg" alt="salads">
             <h3>Salads</h3>
           </a>
 
           <!-- lunch link -->
-           <a href="categories/lunch.html" class="category-bubble theme-pink">
+           <a href="categories/lunch.html" class="category-box theme-pink">
             <img src="imgLunch/poke bowl.jpg" alt="lunch">
             <h3>Lunch</h3>
            </a>
 
+           <!-- quick and easy link-->
+            <a href="categories/quickAndEasy.html" class="category-box theme-blue">
+              <img src="imgQuickAndEasy/burger bowl.jpg" alt="quick and easy">
+              <h3>Quick And Easy</h3>
+            </a>
+
+            <!-- dinner link-->
+             <a href="categories/dinner.html" class="category-box theme-pink">
+              <img src="imgDinner/teriyaki salmon.jpg" alt="dinner">
+              <h3>Dinner</h3>
+             </a>
+
+             <!-- dessert link -->
+              <a href="categories/dessert.html" class="category-box theme-blue">
+              <img src="imgDesserts/cheesckae.jpg" alt="dessert">
+              <h3>Dessert</h3>
+             </a>
+
+             <!-- drinks link -->
+              <a href="categories/drinks.html" class="category-box theme-pink">
+              <img src="imgDrinks/salted caramel cold foam coffee.jpg" alt="drinks">
+              <h3>Drinks</h3>
+             </a>
+
        </div>
-
-
-
-
-
-
-
-
-       
-      <!-- the rows of each category (Breakfast, Healthy...)-->
-       
-      <section class="category-section">
-        <h2 class="category-title">Breakfast</h2>
-
-        <div class="slider-wrapper theme-pink">
-          <!-- the side arrows-->
-           <button class="arrow-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
-
-           <div class="slider-window">
-            <div class="recipe-row">
-
-              <!-- recipe item 1-->
-
-              <a href="recipes/chiaPudding.html" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/chia pudding.jpg" alt="chia pudding">
-                </div>
-                <span class="recipe-name">Chia Pudding</span>
-              </a>
-
-              <!-- recipe item 2-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/overnight oats.jpg" alt="overnight oats">
-                </div>
-                <span class="recipe-name">Overnight Oats</span>
-              </a>
-
-              <!-- recipe item 3-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/pancakes.jpg" alt="Pancakes">
-                </div>
-                <span class="recipe-name">Pancakes</span>
-              </a>
-
-              <!-- recipe item 4-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/breakfast bagel.jpg" alt="breakfast bagel">
-                </div>
-                <span class="recipe-name">Breakfast Bagel</span>
-              </a>
-
-              <!-- recipe item 5-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/egg muffins.jpg" alt="egg muffins">
-                </div>
-                <span class="recipe-name">Egg Muffins</span>
-              </a>
-
-              <!-- recipe item 6-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/french toast.jpg" alt="french toast">
-                </div>
-                <span class="recipe-name">French Toast</span>
-              </a>
-
-              <!-- recipe item 7-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/shakshuka.jpg" alt="shakshuka">
-                </div>
-                <span class="recipe-name">Shakshuka</span>
-              </a>
-
-              <!-- recipe item 8-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/yogurt bowl.jpg" alt="yogurt bowl">
-                </div>
-                <span class="recipe-name">Yogurt Bowl</span>
-              </a>
-
-              <!-- recipe item 9-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/acai bowl.jpg" alt="acai bowl">
-                </div>
-                <span class="recipe-name">Acai Bowl</span>
-              </a>
-
-              <!-- recipe item 10-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgBreakfast/yogurt banana split.jpg" alt="yogurt banana split">
-                </div>
-                <span class="recipe-name">Yogurt Banana Split</span>
-              </a>
-
-            </div>
-           </div>
-
-           <!-- another side arrow-->
-            <button class="arrow-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
-        </div>
-
-        <!--a new row- Salads-->
-
-        <h2 class="category-title">Salads</h2>
-
-        <div class="slider-wrapper theme-blue">
-
-          <button class="arrow-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
-
-           <div class="slider-window">
-            <div class="recipe-row">
-
-              <!-- recipe item 1-->
-              
-               <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/greek salad.jpg" alt="greek salad">
-                </div>
-                <span class="recipe-name">Greek Salad</span>
-              </a>
-
-              <!-- recipe item 2-->
-
-               <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/quinoa salad.jpg" alt="quinoa salad">
-                </div>
-                <span class="recipe-name">Quinoa Salad</span>
-              </a>
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/caesar salad.jpg" alt="caesar salad">
-                </div>
-                <span class="recipe-name">Caesar Salad</span>
-              </a>
-
-              <!-- recipe item 4-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/green goddess.jpg" alt="green goddess salad">
-                </div>
-                <span class="recipe-name">Green Goddess Salad</span>
-              </a>
-
-              <!-- recipe item 5-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/beetroot & arugula salad.jpg" alt="beetroot & arugula salad">
-                </div>
-                <span class="recipe-name">Beetroot & Arugula Salad</span>
-              </a>
-
-              <!-- recipe item 6-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/caprese salad.jpg" alt="caprese salad">
-                </div>
-                <span class="recipe-name">Caprese Salad</span>
-              </a>
-
-              <!-- recipe item 7-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/spinach & strawberry salad.jpg" alt="spinach & strawberry salad">
-                </div>
-                <span class="recipe-name">Spinach & Strawberry Salad</span>
-              </a>
-
-              <!-- recipe item 8-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/asian cucumber salad.jpg" alt="asian cucumber salad">
-                </div>
-                <span class="recipe-name">Asian Cucumber Salad</span>
-              </a>
-
-              <!-- recipe item 9-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/mini mozzarella balls salad.jpg" alt="mini mozzarella balls salad">
-                </div>
-                <span class="recipe-name">Mini Mozzarella Balls Salad</span>
-              </a>
-
-              <!-- recipe item 10-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/apple salad.jpg" alt="apple salad">
-                </div>
-                <span class="recipe-name">Apple Salad</span>
-              </a>
-
-              <!-- recipe item 11-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/israeli salad.jpg" alt="israeli salad">
-                </div>
-                <span class="recipe-name">Israeli Salad</span>
-              </a>
-
-              <!-- recipe item 12-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/thai salad.jpg" alt="thai salad">
-                </div>
-                <span class="recipe-name">Thai Salad</span>
-              </a>
-
-              <!-- recipe item 13-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/lettuce salad.jpg" alt="lettuce salad">
-                </div>
-                <span class="recipe-name">Lettuce Salad</span>
-              </a>
-
-              <!-- recipe item 14-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/pomegranate salad.jpg" alt="pomegranate salad">
-                </div>
-                <span class="recipe-name">Pomegranate Salad</span>
-              </a>
-
-              <!-- recipe item 15-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/tzaziki cucumber salad.jpg" alt="tzaziki cucumber salad">
-                </div>
-                <span class="recipe-name">Tzaziki Cucumber Salad</span>
-              </a>
-
-              <!-- recipe item 16-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/crispy rice salad.jpg" alt="crispy rice salad">
-                </div>
-                <span class="recipe-name">High Protein Crispy Rice Salad</span>
-              </a>
-
-              <!-- recipe item 17-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/chicken salad.jpg" alt="chicken salad">
-                </div>
-                <span class="recipe-name">Chicken Salad</span>
-              </a>
-
-              <!-- recipe item 18-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/roasted chickpea salad.jpg" alt="roasted chickpea salad">
-                </div>
-                <span class="recipe-name">Roasted Chickpea Salad</span>
-              </a>
-
-              <!-- recipe item 19-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/fetta salad.jpg" alt="fetta salad">
-                </div>
-                <span class="recipe-name">Fetta Salad</span>
-              </a>
-
-              <!-- recipe item 20-->
-
-              <a href="#" class="recipe-card appear">
-                <div class="bubble">
-                  <img src="imgSalads/tuna salad.jpg" alt="tuna salad">
-                </div>
-                <span class="recipe-name">Tuna Salad</span>
-              </a>
-
-           </div>
-         </div>
-
-         <button class="arrow-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
-       </div>
-
-       <!-- Lunch category -->
-        <h2 class="category-title">Lunch</h2>
-
-        <div class="slider-wrapper theme-pink">
-
-          <button class="arrow-btn prev" onclick="moveSlider(this, -1)">&#10094;</button>
-
-           <div class="slider-window">
-            <div class="recipe-window">
-
-              <!-- recipe 1-->
-               <a href="#" class="recipe-card">
-                <div class="bubble">
-                  <img src="../imgLunch/poke bowl.jpg" alt="poke bowl">
-                </div>
-                <span class="recipe-name">Poke Bowl</span>
-               </a>
-
-            </div>
-           </div>
-
-            <button class="arrow-btn next" onclick="moveSlider(this, 1)">&#10095;</button>
-        </div>
-
-
-
-  </section>
 
 </body>
 </html>
