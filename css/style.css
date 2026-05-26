@@ -179,7 +179,23 @@ body {
 }
 
 .slider-wrapper.theme-blue {
-  background-color: #C0D6DF; /* blue background for healthy */ 
+  background-color: #C0D6DF; /* blue background for salads */ 
+}
+
+.slider-wrapper.theme-yellow {
+  background-color: #FFFBEB; /* light yellow background for lunch */
+}
+
+.slider-wrapper.theme-orange {
+  background-color: #F5CBC4; /* light orange background for dinner */
+}
+
+.slider-wrapper.theme-green {
+  background-color: #E5F7DF; /* light green background for drinks */
+}
+
+.slider-wrapper.theme-purple {
+  background-color: #E6D5FF; /* light purple background for desserts */
 }
 
 .slider-window{
@@ -266,6 +282,64 @@ body {
 .arrow-btn.next {
   right: -20px; /* position on the right side */  
 }
+
+
+/*categories pages*/
+
+.category-hero {
+  display: flex;
+  flex-direction: column; /* Forces everything inside to stack vertically */
+  align-items: flex-start; 
+  max-width: 1200px;
+  margin: 50px auto 30px;
+  padding: 0 20px;
+  text-align: left;   /* Aligns the text to the left for a more traditional layout */
+}
+
+.hero-title {
+  font-size: 2.6rem;      /* Makes it big and bold */
+  color: #2c3e50;         /* Dark charcoal color for high contrast */
+  margin-top: 0;
+  margin-bottom: 12px;    /* Space between title and paragraph */
+  font-weight: 700;
+  letter-spacing: -0.5px; /* Slight typographic tightening for a premium feel */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-description {
+  font-size: 1.2rem;      /* Slightly larger than standard body text */
+  color: #15191b;         /* Softer, elegant slate-gray color */
+  line-height: 1.6;       /* Adds line spacing so the text has room to breathe */
+  margin: 0;
+  text-align: left;     /* Aligns the paragraph text to the left for a more traditional layout */
+  max-width: 650px;            /* Keeps the paragraph text easily readable */
+}
+
+
+.theme-pink .hero-title {
+  color: #b01a59;
+}
+
+.theme-blue .hero-title {
+  color: #0d47a1;
+}
+
+.theme-yellow .hero-title{
+  color:sandybrown
+}
+
+.theme-green .hero-title{
+  color:#77C769
+}
+
+.theme-orange .hero-title {
+  color: #f3a95f;
+}
+
+.theme-purple .hero-title {
+  color: #6a0dad;
+}
+
 
 
 
