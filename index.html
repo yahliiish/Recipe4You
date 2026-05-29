@@ -10,25 +10,25 @@
 <body>
       
       <header class="main-header">
-        
+      
         <div class="logo">
             <a href="index.html">
-              <img src="imgGeneral/hat-back.jpg" alt="my website logo" class="logo-img"> 
+              <img src="imgGeneral/hat-back.jpg" alt="website logo" class="logo-img"> 
             </a>
         </div>
-        
-        <div class="search-container">
-          <input type="text" id="user-search" class="search-input" placeholder="search website...">
-          <button id="search-btn" class="searchy-btn">Search</button>
         </div>
-        
-        <nav>
-          <ul class="nav-links">
-            <li><a href="index.html">Home</a></li> |
-            <li><a href="#">About</a></li> |
-            <li><a href="#">Contact</a></li> |
-          </ul>
+      
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about" id="aboutNavLink">About</a>
+            <a href="index.html#contact" id="contactNavLink">Contact</a>
         </nav>
+        </div>
+
+        <div class="header-center-zone">
+           <span class="center-logo-text">Recipe4You</span>
+       </div>
+
       </header>
 
 
@@ -75,6 +75,35 @@
              </a>
 
        </div>
+
+       <section id="about" class="home-about-section">
+        <div class="about-content-box">
+          <h2 class="about-title">About Recipe4You</h2>
+          <p class="about-text">
+            Hi, im Yahli! I'm a (smart and hardworking) 10th grade student, and I've developed this website all by myself (and a bit with AI)! this website took me a lot of time and effort, and i hope I will pass the test!
+          </p>
+          <p class="about-text">
+            So I've always loved recipes and aesthetic websites so i thought that this website will be a perfect fit for me! I know it isn't the most advanced website and a few things like database, login, ect. are missing, but i did my best with the time and learning that i had, and I really like how it turned out, I mean look at how cool the recipes look!
+          </p>
+          <p class="about-text">
+             I hope you will enjoy this website and the recipes as much as i enjoyed finishing this project!
+          </p>
+        </div>
+       </section>
+
+       <footer id="contact" class="home-contact-footer">
+        <div class="footer-container">
+          <div class="footer-info">
+            <h3>Get in Touch</h3>
+            <p>Have a recipe suggestion or want to collaborate?</p>
+          </div>
+          <div class="footer-links">
+            <a href="mailto:yaheli.sh@a-y.org.il" class="footer-link">📩 yaheli.sh@a-y.org.il</a>
+           <span class="footer-divider"></span>
+           <a href="tel:+972559944099" class="footer-link">📞 (972+) 55-994-4099</a>
+          </div>
+        </div>
+       </footer>
 
 </body>
 </html>
