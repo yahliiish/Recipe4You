@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthytwix bar</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+
+</head>
+<body>
+
+   <header class="main-header">
+      
+        <div class="logo">
+            <a href="../index.html">
+              <img src="../imgGeneral/hat-back.jpg" alt="website logo" class="logo-img"> 
+            </a>
+        </div>
+        </div>
+      
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#about" id="aboutNavLink">About</a>
+            <a href="../index.html#contact" id="contactNavLink">Contact</a>
+        </nav>
+        </div>
+
+        <div class="header-center-zone">
+           <span class="center-logo-text">Recipe4You</span>
+       </div>
+
+      </header>
+
+
+    
+      <div class="recipe-page-centered-hero">
+  
+    <div class="recipe-square-img">
+      <img src="../imgDesserts/healthy twix bar.jpg" alt="healthy twix bar">
+    </div>
+    <h1 class="recipe-main-title">Healthy Twix Bar</h1>
+  </div>
+
+  <div class="recipe-meta-box">
+    
+    <div class="meta-stats-row">
+      
+      <div class="meta-item">
+        <span class="meta-icon">⏱️</span>
+        <div class="meta-text">
+          <span class="meta-label">Total Time</span>
+          <span class="meta-value">25 mins</span>
+        </div>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-icon">🍽️</span>
+        <div class="meta-text">
+          <span class="meta-label">Yield</span>
+          <div class="servings-adjuster">
+            <button class="adjust-btn" id="decreaseServings">−</button>
+            <span class="meta-value" id="servingsValue" data-base-servings="6">6 servings</span>
+            <button class="adjust-btn" id="increaseServings">+</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="box-divider">
+
+    <p class="recipe-story-paragraph">
+      This is perfect for satisfying those chocolate craving, healthy and nourishing but SO good and a perfect sweet treat.
+    </p>
+
+  </div>
+
+</div>
+
+<div class="recipe-box-outline">
+<div class="recipe-ingredients-container">
+  
+  <h2 class="ingredients-title">Ingredients</h2>
+    
+    <div class="ingredient-layer">
+      <h3>Shortbread layer</h3>
+      <ul class="ingredients-list">
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="1/2">1/2</span> 
+            <span class="ingredient-unit">cup</span> Almond flour
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="2">2</span> 
+            <span class="ingredient-unit">scoops</span> Protein Powder
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="1/4">1/4</span> 
+            <span class="ingredient-unit">cup</span> Coconut oil, melted
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="2">2</span> 
+            <span class="ingredient-unit">tbsp</span> Maple syrup
+          </label>
+        </li>
+      </ul> 
+    </div>
+
+    <div class="ingredient-layer">
+      <h3>Caramel layer</h3>
+      <ul class="ingredients-list"> <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="1/4">1/4</span> 
+            <span class="ingredient-unit">cup</span> Peanut butter
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="4">4</span> 
+            <span class="ingredient-unit">Dates, </span> soaked in hot water
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="3">3</span> 
+            <span class="ingredient-unit">tbsp</span> Maple syrup
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="2">2</span> 
+            <span class="ingredient-unit">tbsp</span> Coconut oil
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="2">2</span> 
+            <span class="ingredient-unit">tbsp</span> Hot water, if needed add more
+          </label>
+        </li>
+      </ul> 
+    </div>
+
+    <div class="ingredient-layer">
+      <h3>Chocolate layer</h3>
+      <ul class="ingredients-list"> <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="80">80</span> 
+            <span class="ingredient-unit">g</span> Dark chocolate
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            <span class="ingredient-amount" data-base-amount="1">1</span> 
+            <span class="ingredient-unit">tbsp</span> Coconut oil
+          </label>
+        </li>
+        <li>
+          <label class="ingredient-label">
+            <input type="checkbox" class="ingredient-checkbox">
+            Pinch of salt
+          </label>
+        </li>
+      </ul> 
+    </div>
+
+</div>
+
+</div> 
+
+</div>
+
+<div class="recipe-box-outline">
+<div class="recipe-instructions-container">
+  
+  <h2 class="instructions-title">Instructions</h2>
+  
+  <ol class="instructions-list">
+    <li>
+      <div class="step-number">Step 01</div>
+      <p class="step-text">
+        in a jar, add all your ingredients in order. Optional- add protein powder.
+      </p>
+    </li>
+    
+    <li>
+      <div class="step-number">Step 02</div>
+      <p class="step-text">
+        If your heart desires, add the optional cinnamon.
+      </p>
+    </li>
+    
+    <li>
+      <div class="step-number">Step 03</div>
+      <p class="step-text">
+        Keep the oats in the fridge overnight or minimum 2 hours in the fridge.
+      </p>
+    </li>
+
+    <li>
+      <div class="step-number">Step 04</div>
+      <p class="step-text">
+        Before you eat the oats or get out the house, put your optional toppings (peanut butter/ blueberries/ both/ what your heart desires).
+      </p>
+    </li>
+
+  </ol>
+
+</div>
+</div>
+
+<div class="recipe-navigation-footer">
+  <a href="../index.html" class="nav-btn btn-secondary">
+    <span>🏠</span> Back to Home
+  </a>
+  <a href="../categories/dessert.html" class="nav-btn btn-primary">
+    Explore Category <span>➔</span>
+  </a>
+</div>
+
+</body>
+</html>
