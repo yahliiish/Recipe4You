@@ -11,10 +11,12 @@ const observer = new IntersectionObserver(entries => {
 
 document.querySelectorAll('.recipe-card').forEach(card => observer.observe(card));
 
+
+
 //the slider
 function moveSlider(button, direction) {
     //find the specific window next to the button clicked
-    const windowView = button.parentElement.querySelector('.slider-window');
+    const windowView = button.parentElement.querySelector('.slider-window'); //isolates the act to only act on it's div and not others
 
     //calculate how far to move
     const scrollAmount = windowView.offsetWidth * 0.8;
@@ -30,7 +32,7 @@ function moveSlider(button, direction) {
 //the about section
 
 
-document.getElementById('aboutNavLink').addEventListener('click', function(event) {
+document.getElementById('aboutNavLink').addEventListener('click', function(event) { //look for that id
   // Check if the user is currently on the home page view
   if (window.location.pathname === '/' || window.location.pathname.endsWith('index.html')) {
     
