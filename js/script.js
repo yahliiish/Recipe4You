@@ -38,7 +38,7 @@ document.getElementById('aboutNavLink').addEventListener('click', function(event
     
     const aboutSection = document.getElementById('about');
     
-    if (aboutSection) {
+    if (aboutSection) {  //it will run only on a page where the about is on
       event.preventDefault(); // Stop the browser from instantly reloading/jumping
       
       // Smoothly slide the window viewport right to the about section box
